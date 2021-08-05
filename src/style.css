@@ -29,6 +29,25 @@ h2 {
 p {
   line-height: 2;
 }
+nav {
+  padding: 20px 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 70%;
+  line-height: 40px;
+  padding-left: 10px;
+  transition: all 100ms ease-in-out;
+}
 .hero {
   background: var(--secondary-color);
   padding: 160px 20px;
@@ -85,8 +104,16 @@ p {
 .content p {
   font-size: 14px;
 }
+.logo {
+  max-height: 40px;
+}
+
 .btn-light:hover {
   border: 1px solid var(--branding-color);
+}
+li a:hover,
+li a.active {
+  color: var(--branding-color);
 }
 @media (max-width: 768px) {
   h1 {
@@ -101,5 +128,8 @@ p {
   .content-container {
     padding: 0;
     text-align: center;
+  }
+  li a {
+    font-size: 14px;
   }
 }
