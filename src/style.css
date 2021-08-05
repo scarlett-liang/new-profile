@@ -26,6 +26,11 @@ h2 {
   font-family: var(--default-font-family);
   margin-bottom: 48px;
 }
+h4 {
+  font-size: 26px;
+  margin: 0;
+}
+
 p {
   line-height: 2;
 }
@@ -47,6 +52,9 @@ li a {
   line-height: 40px;
   padding-left: 10px;
   transition: all 100ms ease-in-out;
+}
+footer {
+  margin: 60px 0;
 }
 .hero {
   background: var(--secondary-color);
@@ -107,10 +115,40 @@ li a {
 .logo {
   max-height: 40px;
 }
-
+.inquiry-box {
+  padding: 30px 120px;
+  border-radius: 10px;
+  background: var(--secondary-color);
+}
 .btn-light:hover {
   border: 1px solid var(--branding-color);
 }
+.inquiry-box p {
+  margin: 0;
+}
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+.social-link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.social-link a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+.email-link:hover {
+  color: var(--branding-color);
+}
+
 li a:hover,
 li a.active {
   color: var(--branding-color);
