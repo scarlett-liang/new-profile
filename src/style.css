@@ -18,7 +18,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 64px;
 }
 h2 {
   font-size: 24px;
@@ -56,9 +56,10 @@ li a {
 footer {
   margin: 60px 0;
 }
+
 .hero {
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
 }
 .btn-brand {
@@ -90,28 +91,19 @@ footer {
   padding: 80px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content {
   margin: 30px;
 }
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-.content h2 {
-  font-size: 18px;
-  font-weight: bold;
-}
+
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
-.content p {
-  font-size: 14px;
-}
+
 .logo {
   max-height: 40px;
 }
@@ -126,11 +118,13 @@ footer {
 .inquiry-box p {
   margin: 0;
 }
-.email-link {
+.links {
   text-decoration: none;
   color: black;
-  font-size: 24px;
   transition: all 100ms ease-in-out;
+}
+.email-link {
+  font-size: 20px;
 }
 .social-link a {
   margin: 0 20px;
@@ -141,11 +135,19 @@ footer {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
+.ending-claim {
+  color: #6c757d;
+
+  transition: all 100ms ease-in-out;
+}
+.ending-claim:hover {
+  color: var(--branding-color);
+}
 .social-link a:hover {
   color: white;
   background: var(--branding-color);
 }
-.email-link:hover {
+.links:hover {
   color: var(--branding-color);
 }
 
